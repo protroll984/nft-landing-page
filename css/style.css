@@ -2,16 +2,23 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
+@font-face {font-family: "Village"; src: url("//db.onlinewebfonts.com/t/ef16b3597b0d5cb6f84b3bb94a3b8718.eot"); src: url("//db.onlinewebfonts.com/t/ef16b3597b0d5cb6f84b3bb94a3b8718.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/ef16b3597b0d5cb6f84b3bb94a3b8718.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/ef16b3597b0d5cb6f84b3bb94a3b8718.woff") format("woff"), url("//db.onlinewebfonts.com/t/ef16b3597b0d5cb6f84b3bb94a3b8718.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/ef16b3597b0d5cb6f84b3bb94a3b8718.svg#Village") format("svg"); }
+@font-face {font-family: "SuperpoZ"; src: url("//db.onlinewebfonts.com/t/1a8ad36a2d594ca9ec540d296633415a.eot"); src: url("//db.onlinewebfonts.com/t/1a8ad36a2d594ca9ec540d296633415a.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/1a8ad36a2d594ca9ec540d296633415a.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/1a8ad36a2d594ca9ec540d296633415a.woff") format("woff"), url("//db.onlinewebfonts.com/t/1a8ad36a2d594ca9ec540d296633415a.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/1a8ad36a2d594ca9ec540d296633415a.svg#SuperpoZ") format("svg"); }
+@font-face {font-family: "Weedface"; src: url("//db.onlinewebfonts.com/t/c57a9f5174c418c96aa1b48119c534dc.eot"); src: url("//db.onlinewebfonts.com/t/c57a9f5174c418c96aa1b48119c534dc.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/c57a9f5174c418c96aa1b48119c534dc.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/c57a9f5174c418c96aa1b48119c534dc.woff") format("woff"), url("//db.onlinewebfonts.com/t/c57a9f5174c418c96aa1b48119c534dc.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/c57a9f5174c418c96aa1b48119c534dc.svg#Weedface") format("svg"); }
+@font-face {font-family: "FFF Tusj"; src: url("//db.onlinewebfonts.com/t/5b43a199b020f6a584ae28fb31ea01da.eot"); src: url("//db.onlinewebfonts.com/t/5b43a199b020f6a584ae28fb31ea01da.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/5b43a199b020f6a584ae28fb31ea01da.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/5b43a199b020f6a584ae28fb31ea01da.woff") format("woff"), url("//db.onlinewebfonts.com/t/5b43a199b020f6a584ae28fb31ea01da.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/5b43a199b020f6a584ae28fb31ea01da.svg#FFF Tusj") format("svg"); }
 /* GLOBAL STYLES */
 
 :root {
-  --font-primary: 'Poppins', sans-serif;
-  --font-secondary: 'Arvo', serif;
+  --font-primary: 'Weedface', sans-serif;
+  --font-secondary: 'Village', serif;
+  --font-third: 'FFF Tusj', sans-serif;
   --font-code: 'Roboto', monospace;
-  --bg-color: #00163f;
-  --font-color: #ffffff;
-  --btn-bg-color: #ffffff;
-  --accent-color: #be7efe;
+  --bg-color: #000000;
+  --font-color: #2b3d00e3;
+  --btn-bg-color: #006920;
+  --accent-color: #fffb00b4;
+  --coundown-font: red;
+  --countdown-background: blue;
   --header-shadow: #000 0px 0px 5px;
 }
 
@@ -22,20 +29,39 @@
 }
 
 body {
-  background-color: var(--bg-color);
+  background-image: linear-gradient(to right, rgba(255,255,0,0.5), rgba(98, 0, 255, 0.5), rgba(0, 255, 234, 0.541), rgba(255, 0, 0, 0.658)),
+  url('background.png');
   display: flex;
   flex-flow: column;
   height: 100vh;
   color: var(--font-color);
   font-family: var(--font-primary);
 }
-
 .container {
   display: flex;
   flex-direction: column;
   max-width: 960px;
   margin: 0 auto;
+  margin-top: 2%;
   padding: 1rem 2rem;
+}
+
+
+.Intro_Picture img {
+  float: right;
+  margin-left: 5%;
+  border-radius: 6%;
+  width:400px;
+  height: 400px;
+}
+
+.Intro_Picture h1 {
+  position: relative;
+  
+}
+
+.Intro_Picture {
+  margin-bottom: 4%;
 }
 
 /* HEADER */
@@ -54,6 +80,11 @@ header .container {
   display: flex;
   gap: 2rem;
   align-items: center;
+}
+
+.logo {
+  color: var(--font-color);
+  font-family: var(--font-third);
 }
 
 /* BUTTONS */
@@ -125,7 +156,7 @@ section {
   width: 100%;
   text-align: center;
   line-height: 1;
-  border-radius: 4px 4px 0 0;
+  border-radius: 90px 90px 0 0;
 }
 .countdown .clock-item .count-text {
   background: var(--btn-bg-color);
@@ -137,7 +168,7 @@ section {
   width: 100%;
   text-align: center;
   line-height: 1;
-  border-radius: 0 0 4px 4px;
+  border-radius: 0 0 90px 90px;
 }
 
 .countdown h1 {
