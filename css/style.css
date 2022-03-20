@@ -62,6 +62,7 @@ body {
 
 .Intro_Picture {
   margin-bottom: 4%;
+  position: static;
 }
 
 /* HEADER */
