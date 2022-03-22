@@ -57,6 +57,18 @@ body {
   height: 400px;
 }
 
+.footer img{
+  float: left;
+}
+
+.footer p {
+  position: relative;
+}
+
+.footer {
+  position: static;
+}
+
 .Intro_Picture h1 {
   position: relative;
   
