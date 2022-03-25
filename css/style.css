@@ -14,7 +14,7 @@
   --font-third: 'FFF Tusj', sans-serif;
   --font-code: 'Roboto', monospace;
   --bg-color: #000000;
-  --font-color: #3d0026e3;
+  --font-color: #003d14e3;
   --btn-bg-color: #446900;
   --accent-color: #00eeffb4;
   --accent-colors: #fffb00b4;
@@ -40,6 +40,7 @@ body {
   color: var(--font-color);
   font-family: var(--font-primary);
 }
+
 .container {
   display: flex;
   flex-direction: column;
@@ -111,6 +112,7 @@ header .container {
 .logo {
   color: var(--font-color);
   font-family: var(--font-secondary);
+  text-shadow: 2px 2px #ff0000;
 }
 
 /* BUTTONS */
