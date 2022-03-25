@@ -46,6 +46,7 @@ body {
   margin: 0 auto;
   margin-top: 2%;
   padding: 1rem 2rem;
+  font-size: 18px;
 }
 
 
@@ -97,9 +98,14 @@ header .container {
   align-items: center;
 }
 
+.menu img{
+  Width: 30px;
+  height: 30px;
+}
+
 .logo {
   color: var(--font-color);
-  font-family: var(--font-third);
+  font-family: var(--font-secondary);
 }
 
 /* BUTTONS */
