@@ -16,7 +16,7 @@
   --bg-color: #000000;
   --font-color: #003d14e3;
   --btn-bg-color: #446900;
-  --accent-color: #00ffbfb9;
+  --accent-color: #00ffbfcc;
   --accent-colors: #fffb00b4;
   --coundown-font: red;
   --countdown-background: blue;
@@ -235,7 +235,7 @@ section {
 }
 
 .countdown h1 {
-  text-shadow: 3px 3px 1px #000000;
+  text-shadow: 3px 3px 2px #000000;
   color: var(--accent-color);
   font-style: italic;
   margin: 2rem 0;
