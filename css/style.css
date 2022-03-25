@@ -11,12 +11,12 @@
 :root {
   --font-primary: 'FFF Tusj', sans-serif;
   --font-secondary: 'Village', serif;
-  --font-third: 'Weedface', sans-serif;
+  --font-third: 'FFF Tusj', sans-serif;
   --font-code: 'Roboto', monospace;
   --bg-color: #000000;
   --font-color: #003d14e3;
   --btn-bg-color: #446900;
-  --accent-color: #00ff9dcc;
+  --accent-color: #00ffbfb9;
   --accent-colors: #fffb00b4;
   --coundown-font: red;
   --countdown-background: blue;
@@ -241,16 +241,6 @@ section {
   margin: 2rem 0;
   font-size: 3.5rem;
   text-align: center;
-}
-
-.countdown h2 {
-  text-shadow: 3px 3px 2px #000000;
-  color: var(--accent-color);
-  font-style: italic;
-  margin: 2rem 0;
-  font-size: 3.5rem;
-  text-align: center;
-  font-family: var(--font-third);
 }
 
 .countdown p {
