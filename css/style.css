@@ -9,14 +9,15 @@
 /* GLOBAL STYLES */
 
 :root {
-  --font-primary: 'Weedface', sans-serif;
+  --font-primary: 'FFF Tusj', sans-serif;
   --font-secondary: 'Village', serif;
   --font-third: 'FFF Tusj', sans-serif;
   --font-code: 'Roboto', monospace;
   --bg-color: #000000;
   --font-color: #3d0026e3;
   --btn-bg-color: #446900;
-  --accent-color: #fffb00b4;
+  --accent-color: #00eeffb4;
+  --accent-colors: #fffb00b4;
   --coundown-font: red;
   --countdown-background: blue;
   --header-shadow: #000 0px 0px 5px;
@@ -49,6 +50,10 @@ body {
   font-size: 18px;
 }
 
+.Colour_Changes {
+  background-image: linear-gradient(to right, rgba(255,255,0,0.5), rgba(98, 0, 255, 0.5), rgba(0, 255, 234, 0.541), rgba(255, 0, 0, 0.658)),
+  url('background.png');
+}
 
 .Intro_Picture img {
   float: right;
@@ -114,14 +119,14 @@ header .container {
   display: inline-block;
   padding: 1rem 2rem;
   background: var(--btn-bg-color);
-  color: var(--accent-color);
+  color: var(--accent-colors);
   font-family: var(--font-secondary);
   font-style: italic;
   font-weight: bold;
   font-size: 1rem;
   text-transform: capitalize;
   transition: all 0.3s ease;
-  box-shadow: 4px 4px 0 0 var(--accent-color);
+  box-shadow: 4px 4px 0 0 var(--accent-colors);
   cursor: pointer;
   position: relative;
   text-decoration: none;
