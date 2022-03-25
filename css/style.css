@@ -4,14 +4,14 @@
 
 @font-face {font-family: "Village"; src: url("//db.onlinewebfonts.com/t/ef16b3597b0d5cb6f84b3bb94a3b8718.eot"); src: url("//db.onlinewebfonts.com/t/ef16b3597b0d5cb6f84b3bb94a3b8718.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/ef16b3597b0d5cb6f84b3bb94a3b8718.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/ef16b3597b0d5cb6f84b3bb94a3b8718.woff") format("woff"), url("//db.onlinewebfonts.com/t/ef16b3597b0d5cb6f84b3bb94a3b8718.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/ef16b3597b0d5cb6f84b3bb94a3b8718.svg#Village") format("svg"); }
 /*@font-face {font-family: "SuperpoZ"; src: url("//db.onlinewebfonts.com/t/1a8ad36a2d594ca9ec540d296633415a.eot"); src: url("//db.onlinewebfonts.com/t/1a8ad36a2d594ca9ec540d296633415a.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/1a8ad36a2d594ca9ec540d296633415a.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/1a8ad36a2d594ca9ec540d296633415a.woff") format("woff"), url("//db.onlinewebfonts.com/t/1a8ad36a2d594ca9ec540d296633415a.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/1a8ad36a2d594ca9ec540d296633415a.svg#SuperpoZ") format("svg"); }*/
-@font-face {font-family: "Weedface"; src: url("//db.onlinewebfonts.com/t/c57a9f5174c418c96aa1b48119c534dc.eot"); src: url("//db.onlinewebfonts.com/t/c57a9f5174c418c96aa1b48119c534dc.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/c57a9f5174c418c96aa1b48119c534dc.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/c57a9f5174c418c96aa1b48119c534dc.woff") format("woff"), url("//db.onlinewebfonts.com/t/c57a9f5174c418c96aa1b48119c534dc.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/c57a9f5174c418c96aa1b48119c534dc.svg#Weedface") format("svg"); }
+@font-face {font-family: "WeedyBeastlessNFW01-Regular"; src: url("//db.onlinewebfonts.com/t/d48a15924d720c638ecd3cc1ae1b5f03.eot"); src: url("//db.onlinewebfonts.com/t/d48a15924d720c638ecd3cc1ae1b5f03.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/d48a15924d720c638ecd3cc1ae1b5f03.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/d48a15924d720c638ecd3cc1ae1b5f03.woff") format("woff"), url("//db.onlinewebfonts.com/t/d48a15924d720c638ecd3cc1ae1b5f03.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/d48a15924d720c638ecd3cc1ae1b5f03.svg#WeedyBeastlessNFW01-Regular") format("svg"); }
 @font-face {font-family: "FFF Tusj"; src: url("//db.onlinewebfonts.com/t/5b43a199b020f6a584ae28fb31ea01da.eot"); src: url("//db.onlinewebfonts.com/t/5b43a199b020f6a584ae28fb31ea01da.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/5b43a199b020f6a584ae28fb31ea01da.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/5b43a199b020f6a584ae28fb31ea01da.woff") format("woff"), url("//db.onlinewebfonts.com/t/5b43a199b020f6a584ae28fb31ea01da.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/5b43a199b020f6a584ae28fb31ea01da.svg#FFF Tusj") format("svg"); }
 /* GLOBAL STYLES */
 
 :root {
   --font-primary: 'FFF Tusj', sans-serif;
   --font-secondary: 'Village', serif;
-  --font-third: 'Weedface', sans-serif;
+  --font-third: 'WeedyBeastlessNFW01-Regular', sans-serif;
   --font-code: 'Roboto', monospace;
   --bg-color: #000000;
   --font-color: #003d14e3;
@@ -250,7 +250,7 @@ section {
   margin: 2rem 0;
   font-size: 3.5rem;
   text-align: center;
-  font-family: var(--font-third);
+  font-family: var(--font-secondary);
 }
 
 .countdown p {
