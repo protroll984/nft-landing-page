@@ -115,7 +115,7 @@ header .container {
   font-family: var(--font-secondary);
   -webkit-text-stroke-width: 0.1px;
   -webkit-text-stroke-color: rgba(255, 255, 255, 0.781);
-  text-shadow: 3px 3px 2px #000000e8;
+  text-shadow: 3px 3px 2px #000000;
 }
 
 /* BUTTONS */
