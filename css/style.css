@@ -17,6 +17,7 @@
   --font-color: #323d00e3;
   --btn-bg-color: #446900;
   --accent-color: #00ff2ab9;
+  --about-us-color: #00ff2ad2;
   --header-colour: rgba(238, 255, 0, 0.63);
   --accent-colors: #fffb00b4;
   --coundown-font: red;
@@ -250,7 +251,7 @@ section {
   -webkit-text-stroke-width: 0.1px;
   -webkit-text-stroke-color: rgba(153, 1, 1, 0.781);
   text-shadow: 3px 3px 2px #000000;
-  color: var(--accent-color);
+  color: var(--about-us-color);
   font-style: italic;
   margin: 2rem 0;
   font-size: 3.5rem;
