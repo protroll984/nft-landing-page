@@ -16,7 +16,7 @@
   --font-color: #00640de3;
   --font-color2: yellow;
   --btn-bg-color: #446900;
-  --accent-color: #066917;
+  --accent-color: #000000;
   --about-us-color: #00ff2ad2;
   --header-colour: rgba(238, 255, 0, 0.63);
   --accent-colors: #fffb00b4;
@@ -254,6 +254,8 @@ section {
 
 .countdown h1 {
   text-shadow: 3px 3px 2px #000000;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: white;
   color: var(--accent-color);
   font-style: italic;
   margin: 2rem 0;
