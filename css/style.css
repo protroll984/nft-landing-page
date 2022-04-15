@@ -92,7 +92,7 @@ body {
 
 .Intro_Picture h1 {
   position: relative;
-  
+  text-shadow: 3px 3px 2px #000000;
 }
 
 .Intro_Picture {
@@ -253,7 +253,7 @@ section {
 }
 
 .countdown h1 {
-  text-shadow: 3px 3px 2px #ffffff;
+  text-shadow: 3px 3px 2px #000000;
   color: var(--accent-color);
   font-style: italic;
   margin: 2rem 0;
