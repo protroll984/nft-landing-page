@@ -42,13 +42,13 @@ body {
   font-family: var(--font-primary);
   background-image: linear-gradient(to right, rgba(255,255,0,0.5), rgba(98, 0, 255, 0.5), rgba(0, 255, 234, 0.541), rgba(255, 0, 0, 0.658)),
   url('background.png');
-  background-size: 1450px 1335px;
+  background-size: 1400px 1335px;
   
 }
 
 .middle {
   background-image: url('background2.png');
-  background-size: 1430px 2200px;
+  background-size: 1400px 2200px;
 }
 
 .bottom {
@@ -67,12 +67,6 @@ body {
 
 .container img {
   float: left;
-}
-
-.Colour_Changes {
-  /*background-image: linear-gradient(to right, rgba(255,255,0,0.5), rgba(98, 0, 255, 0.5), rgba(0, 255, 234, 0.541), rgba(255, 0, 0, 0.658)),
-  url('background.png');*/
-  
 }
 
 .Intro_Picture img {
@@ -107,7 +101,7 @@ header {
   box-shadow: var(--header-shadow), var(--header-shadow-background);
   background-image: linear-gradient(to right, rgba(255,255,0,0.5), rgba(98, 0, 255, 0.5), rgba(0, 255, 234, 0.541), rgba(255, 0, 0, 0.658)),
   url('background.png');
-  background-size: 1450px 1335px;
+  background-size: 1400px 1335px;
 }
 
 header .container {
