@@ -40,15 +40,19 @@ body {
   height: 100vh;
   color: var(--font-color);
   font-family: var(--font-primary);
+
+  
+}
+
+.top {
   background-image: linear-gradient(to right, rgba(255,255,0,0.5), rgba(98, 0, 255, 0.5), rgba(0, 255, 234, 0.541), rgba(255, 0, 0, 0.658)),
   url('background.png');
-  background-size: 1400px 1335px;
-  
+  background-size: cover;
 }
 
 .middle {
   background-image: url('background2.png');
-  background-size: 1400px 2200px;
+  background-size: cover;
 }
 
 .bottom {
@@ -98,10 +102,11 @@ body {
 /* HEADER */
 
 header {
-  box-shadow: var(--header-shadow), var(--header-shadow-background);
+  
   background-image: linear-gradient(to right, rgba(255,255,0,0.5), rgba(98, 0, 255, 0.5), rgba(0, 255, 234, 0.541), rgba(255, 0, 0, 0.658)),
   url('background.png');
-  background-size: 1400px 1335px;
+  background-size: cover;
+  box-shadow: var(--header-shadow), var(--header-shadow-background);
 }
 
 header .container {
