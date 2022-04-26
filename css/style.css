@@ -265,7 +265,7 @@ section {
 }
 
 .countdown h2 {
-  text-shadow: 2px 3px 2px #000000;
+  text-shadow: 5px 3px 2px #000000;
   color: var(--about-us-color);
   font-style: italic;
   margin: 2rem 0;
