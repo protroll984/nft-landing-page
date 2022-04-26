@@ -50,6 +50,12 @@ body {
   background-size: cover;
 }
 
+.about-us {
+  background-image: linear-gradient(to right, rgba(16, 180, 10, 0.623), rgba(98, 0, 255, 0.5), rgba(31, 1, 70, 0.541), rgba(109, 177, 0, 0.658)),
+  url('background.png');
+  background-size: cover;
+}
+
 .middle {
   background-image: url('background2.png');
   background-size: cover;
