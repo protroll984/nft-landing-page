@@ -3,14 +3,14 @@
 /*@import url("https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");*/
 
 @font-face {font-family: "Village"; src: url("//db.onlinewebfonts.com/t/ef16b3597b0d5cb6f84b3bb94a3b8718.eot"); src: url("//db.onlinewebfonts.com/t/ef16b3597b0d5cb6f84b3bb94a3b8718.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/ef16b3597b0d5cb6f84b3bb94a3b8718.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/ef16b3597b0d5cb6f84b3bb94a3b8718.woff") format("woff"), url("//db.onlinewebfonts.com/t/ef16b3597b0d5cb6f84b3bb94a3b8718.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/ef16b3597b0d5cb6f84b3bb94a3b8718.svg#Village") format("svg"); }
-@font-face {font-family: "Oh Mighty Isis"; src: url("//db.onlinewebfonts.com/t/eac11f8285d5609edcd9694dd4bce410.eot"); src: url("//db.onlinewebfonts.com/t/eac11f8285d5609edcd9694dd4bce410.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/eac11f8285d5609edcd9694dd4bce410.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/eac11f8285d5609edcd9694dd4bce410.woff") format("woff"), url("//db.onlinewebfonts.com/t/eac11f8285d5609edcd9694dd4bce410.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/eac11f8285d5609edcd9694dd4bce410.svg#Oh Mighty Isis") format("svg"); }
+@font-face {font-family: "LittleBird"; src: url("//db.onlinewebfonts.com/t/bc4554fa8acba200f95d0d4c6b0753a4.eot"); src: url("//db.onlinewebfonts.com/t/bc4554fa8acba200f95d0d4c6b0753a4.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/bc4554fa8acba200f95d0d4c6b0753a4.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/bc4554fa8acba200f95d0d4c6b0753a4.woff") format("woff"), url("//db.onlinewebfonts.com/t/bc4554fa8acba200f95d0d4c6b0753a4.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/bc4554fa8acba200f95d0d4c6b0753a4.svg#LittleBird") format("svg"); }
 @font-face {font-family: "Druk Wide Bold"; src: url("//db.onlinewebfonts.com/t/2206d6cc490084998d531e8c1b2cbb4a.eot"); src: url("//db.onlinewebfonts.com/t/2206d6cc490084998d531e8c1b2cbb4a.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/2206d6cc490084998d531e8c1b2cbb4a.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/2206d6cc490084998d531e8c1b2cbb4a.woff") format("woff"), url("//db.onlinewebfonts.com/t/2206d6cc490084998d531e8c1b2cbb4a.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/2206d6cc490084998d531e8c1b2cbb4a.svg#Druk Wide Bold") format("svg"); }
 /* GLOBAL STYLES */
 
 :root {
   --font-primary: 'Druk Wide Bold', sans-serif;
   --font-secondary: 'Village', serif;
-  --font-third: 'Oh Mighty Isis', sans-serif;
+  --font-third: 'LittleBird', sans-serif;
   --font-code: 'Roboto', monospace;
   --bg-color: #000000;
   --font-color: #00640de3;
@@ -265,13 +265,11 @@ section {
 }
 
 .countdown h2 {
-  -webkit-text-stroke-width: 0.1px;
-  -webkit-text-stroke-color: rgba(153, 1, 1, 0.781);
-  text-shadow: 3px 3px 2px #000000;
+  text-shadow: 2px 3px 2px #000000;
   color: var(--about-us-color);
   font-style: italic;
   margin: 2rem 0;
-  font-size: 3.5rem;
+  font-size: 8rem;
   text-align: center;
   font-family: var(--font-third);
 }
